@@ -159,7 +159,23 @@ var tooHungryDay;
  meals)
 */
 
-
+var avgMeals;
+for (var daysIndex = 0 ; daysIndex < mealsPerDay.length ; daysIndex++) {
+  var dayCounter = 0;
+  var totalMeals = 0;
+  while (dayCounter < daysIndex + 1) {
+    totalMeals = totalMeals + mealsPerDay[dayCounter];
+    dayCounter++;
+  }
+  avgMeals = (totalMeals / (daysIndex + 1));
+  if (avgMeals < 4) {
+    tooHungryDay = daysIndex + 1;
+    break;
+  }
+  else {
+    continue;
+  }
+}
 
 assert(tooHungryDay, 'remember to assign the answer to tooHungryDay');
 assert(tooHungryDay < 10, 'the lion is too hungry before the end of the array');
