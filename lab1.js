@@ -89,7 +89,6 @@ for (var i = 0; i < sentence1.length; i++) {
 }
 sentence1 = sentence1.join('');
 
-
 // TODO: part #2: use a while or do-while loop to replace the words in sentence 2
 // with 'chirp' (10 points)
 
