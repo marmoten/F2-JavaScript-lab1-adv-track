@@ -161,13 +161,7 @@ var tooHungryDay;
 
 var avgMeals;
 for (var daysIndex = 0 ; daysIndex < mealsPerDay.length ; daysIndex++) {
-  var dayCounter = 0;
-  var totalMeals = 0;
-  while (dayCounter < daysIndex + 1) {
-    totalMeals = totalMeals + mealsPerDay[dayCounter];
-    dayCounter++;
-  }
-  avgMeals = (totalMeals / (daysIndex + 1));
+  calcAverageMeals();
   if (avgMeals < 4) {
     tooHungryDay = daysIndex + 1;
     break;
