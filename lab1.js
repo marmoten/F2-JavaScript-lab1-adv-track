@@ -1,5 +1,7 @@
 'use strict';
 
+//this is a comment added to master branch
+
 /* LAB 1: A Trip to Woodland Park Zoo
 
  Welcome to Lab 1 =)
