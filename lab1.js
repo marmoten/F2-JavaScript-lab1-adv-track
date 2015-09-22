@@ -176,12 +176,12 @@ function calcAverageMeals() {
   var totalMeals = 0;
   while (dayCounter < daysIndex + 1) {
     totalMeals = totalMeals + mealsPerDay[dayCounter];
-    console.log('dayCounter: ' + dayCounter);
-    console.log('totalMeals: ' + totalMeals);
     dayCounter++;
   }
   avgMeals = (totalMeals / (daysIndex + 1));
 }
+
+console.log("tooHungryDay = " + tooHungryDay);
 
 assert(tooHungryDay, 'remember to assign the answer to tooHungryDay');
 assert(tooHungryDay < 10, 'the lion is too hungry before the end of the array');
