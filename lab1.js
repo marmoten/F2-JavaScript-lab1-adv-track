@@ -200,14 +200,3 @@ assert(tooHungryDay < 10, 'the lion is too hungry before the end of the array');
  Error and warning descriptions will be printed in the terminal.
  To get full points, correct all of the errors/warnings.
 */
-
-/*
-Math.random and Math.floor
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
-
-join() method
-http://www.w3schools.com/jsref/jsref_join.asp
-
-split() method
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
-*/

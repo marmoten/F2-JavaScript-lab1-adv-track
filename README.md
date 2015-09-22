@@ -14,3 +14,19 @@ comments. Be sure to read everything. Run lab.js with `node lab1.js`.
 
 #### Resources and Collaborators
 
+Math.random() and Math.floor() methods
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+Jon Duckett, JavaScript and jQuery Book- pages 134-135
+
+join() method
+http://www.w3schools.com/jsref/jsref_join.asp
+
+split() method
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
+
+while loops
+Jon Duckett, JavaScript and jQuery Book - pages 176-177
+
+if statements
+Jon Duckett, JavaScript and jQuery Book - pages 160-163
+
