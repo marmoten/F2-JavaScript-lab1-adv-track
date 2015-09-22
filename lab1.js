@@ -57,8 +57,8 @@ assert(1 === 2, 'this is an example of a failing assertion. 1 does not equal 2.'
  it failed.
 */
 
-assert('meerkat' === 'penguin', 'meerkat does not equal penguin')
-assert('meerkat' === 'meerkat', 'meerkat equals meerkat')
+assert('meerkat' === 'penguin', 'meerkat does not equal penguin');
+assert('meerkat' === 'meerkat', 'meerkat equals meerkat');
 
 /* ========================================================================
 ----------------- Meerkats (20 points total)-------------------------------
@@ -86,7 +86,7 @@ for (var i = 0; i < sentence1.length; i++) {
   else {
     sentence1[i] = 'chirp.';
   }
-};
+}
 sentence1 = sentence1.join('');
 
 
