@@ -200,3 +200,7 @@ assert(tooHungryDay < 10, 'the lion is too hungry before the end of the array');
  Error and warning descriptions will be printed in the terminal.
  To get full points, correct all of the errors/warnings.
 */
+
+/*
+Done- four yoda conditions remain, will be interested to learn how to fix them!
+*/
