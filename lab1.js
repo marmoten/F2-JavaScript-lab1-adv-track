@@ -163,9 +163,11 @@ for (var daysIndex = 0 ; daysIndex < mealsPerDay.length ; daysIndex++) {
   calcAverageMeals();
   if (avgMeals < 4) {
     tooHungryDay = daysIndex + 1;
+    console.log("Oops, the caretaker was eaten on day " + tooHungryDay + ".");
     break;
   }
   else {
+    console.log("On day " + (daysIndex + 1) + ", the average meals per day was " + avgMeals + ".");
     continue;
   }
 }
